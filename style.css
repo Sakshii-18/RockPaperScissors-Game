@@ -1,0 +1,129 @@
+body
+{
+    /* background-color:#A2A3BB; */
+    background: #DDE0F0;
+
+}
+
+h1
+{
+    text-align: center;
+    font-weight: 600;
+    color : #101383;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+   text-align: center;
+    font-weight: 600;
+    color : #131414; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.choices
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 70px;
+   
+
+}
+
+.choice
+{
+     border:2px solid  solid transparent;
+    border-radius: 90%; 
+     /* width: 120px;          /* controls circle size 
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s ease, transform 0.2s ease; */
+    
+}
+
+.choice:hover
+{
+    /* background-color: #a5a8da; */
+    
+    cursor: pointer;
+    transform: translateY(-6px);
+}
+#rock
+{
+    background-image: url("images/rock.jpeg");
+    background-size: contain;
+    height: 200px;
+    width: 250px;
+   
+    
+
+}
+
+#paper
+{
+    background-image: url("images/paper.jpeg");
+    background-size: contain;
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+#scissors
+{
+    background-image: url("images/scissors.jpeg");
+   background-size: contain;
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.score
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #101383;
+    
+    
+}
+
+.user-score,.computer-score
+{
+   width: 200px;
+   font-size: 2rem;
+  text-align: center;
+    
+    
+}
+
+.text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.msg-box
+{
+    display: flex;
+    justify-content: center;
+}
+
+#msg
+{
+
+  background-color: #081b31;
+  color: #ffff;
+ font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+   
+
+   
+    
+}
