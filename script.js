@@ -18,7 +18,7 @@ const genCompChoice = () => {
 const drawGame = () =>
 {
  
-  msg.innerText = "Game Was Draw";
+  msg.innerText = "It's a Draw!";
    msg.style.backgroundColor = "#081b31";
   return;
 }
@@ -26,8 +26,8 @@ const drawGame = () =>
 const showWinner = (userWin, userChoice, compChoice) => {
   if (userWin)
     {
-      console.log("You Won!");
-      msg.innerText = `Your ${userChoice} beats ${compChoice}`;
+      console.log("You Win!");
+      msg.innerText = `You Win!! Your ${userChoice} beats ${compChoice}`;
       msg.style.backgroundColor = "#1f7a4d";
       userScore++;
       uscore.innerText = userScore;
@@ -35,7 +35,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     else 
       {
       console.log("You lose!");
-      msg.innerText = `${compChoice} beats your ${userChoice}`;
+      msg.innerText = `You Lose!! ${compChoice} beats your ${userChoice}`;
       msg.style.backgroundColor = "#8b1e1e";
       compScore++;
       cscore.innerText = compScore;
